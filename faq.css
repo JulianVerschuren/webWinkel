@@ -1,0 +1,126 @@
+body {
+	font-family: sans-serif;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	border: solid black 1px;
+}
+
+#header {
+	height: 100px;
+}
+
+#header img {
+	height: 180px;
+	margin-left: -10px;
+}
+
+#navigation {
+	height: 39px;
+	background-color: #007FFF;
+	margin-top: -5px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	height: 38px;
+}
+
+ul li {
+	float: left;
+	margin: 0;
+	border-top: solid black 1px;
+	border-bottom: solid black 1px;
+	border-radius: 4px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 2em;
+}
+
+ul li a:hover {
+	background-color: rgba(0, 0, 255, 0.5);
+}
+
+#content {
+	background-color: lightgrey;
+	margin: 0px;
+	height: 640px;
+	font-family: sans-serif;
+	font-size: 1.2em;
+}
+
+#content img {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+footer {
+	background-color: #007FFF;
+	margin: 0px auto;
+	height: 120px;
+	width: 960px;
+	margin-top: -7px;
+	border: solid black 1px;
+}
+
+#stukjeText {
+	background-color: white;
+	width: 395px;
+	padding-left: 5px;
+}
+
+#googleMaps {
+	width: 300px;
+	height: 200px;
+}
+
+#twitterLink {
+	margin-left: 10px;
+	margin-bottom: 2px;
+}
+
+#tekstStukje {
+	background-color: white;
+	border: 1px black solid;
+	padding: 5px;
+	height: 450px;
+	width: 450px;
+	padding-top: 15px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+#onzePartners {
+	width: 450px;
+	margin-left: 20px;
+}
+
+#freqOne{
+margin-left: 25px;
+margin-top: 0px;
+}
+
+#freqTwo{
+margin-top: 0px;
+
+
+}
+
+textarea{
+padding: 4px;
+
+}
+
+.vraagStelling{
+height: 100px;
+width: 300px;
+
+}

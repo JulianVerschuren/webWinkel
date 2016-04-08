@@ -1,0 +1,435 @@
+body{
+
+font-family: sans-serif;
+
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+	border: solid black 1px;
+}
+
+#header {
+    height: 100px;
+}
+
+#header img {
+	height: 180px;
+	margin-left: -10px;
+}
+
+#navigation {
+    height: 39px;
+    background-color: #007FFF;
+    margin-top: -5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    height: 38px;
+}
+
+ul li {
+    float: left;
+    margin: 0;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+
+ul li a:hover {
+    background-color: rgba(0,0,255,0.5);
+}
+
+#content {
+    background-color: lightgrey;
+    margin: 0;
+    height: 1057px;
+	width: 960px;
+}
+
+#content img {
+    height: 400px;
+    margin-top: 10px;
+}
+
+#scrollvenster {
+    height: 400px;
+}
+
+#onder {
+    
+}
+
+#onder img {
+    height: 200px;
+    margin-right: 30px;
+}
+
+#table {
+    margin-top: 10px;
+}
+
+#table table tr td {
+    border: 1px solid black;
+    margin: 0;
+    border-spacing: 0;
+}
+
+/*modaal venster css*/
+
+#content img {
+    height: 250px;
+    margin-left: 25px;
+    background-color: grey;
+}
+
+#content img:hover {
+    cursor: pointer;
+    opacity: 0.3;
+    border: solid black 4px;
+    height: 242px;
+}
+
+.modaal-inhoud {
+    background-color: white;
+    border: solid white 0px;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 660px;
+}
+
+.modaal-venster {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1;
+    overflow: auto;
+}
+
+.sluit-knop {
+    color: white;
+    background-color: red;
+    border: black 2px solid;
+    border-radius: 40px;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    width: 35px;
+    height: 45px;
+    padding-top: 5px;
+    padding-left: 11px;
+}
+
+.sluit-knop:hover,
+.sluit-knop:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.prod #imgspecs #img {
+    display: inline-block;
+    border: solid grey 3px;
+}
+
+.prod #imgspecs #specificaties {
+    display: inline-block;
+/*    font-size: 153%;*/
+    font-size: 122%;
+    padding-top: 0px;
+}
+
+
+.prod #imgspecs1 #img1 {
+    display: inline-block;
+    border: solid grey 3px;
+}
+
+.prod #imgspecs1 #specificaties1 {
+    display: inline-block;
+/*    font-size: 153%;*/
+    font-size: 122%;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+.prod #imgspecs2 #img2 {
+    display: inline-block;
+    border: solid grey 3px;
+}
+
+.prod #imgspecs2 #specificaties2 {
+    display: inline-block;
+/*    font-size: 153%;*/
+    font-size: 122%;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+.prod #imgspecs3 #img3 {
+    display: inline-block;
+    border: solid grey 3px;
+}
+
+.prod #imgspecs3 #specificaties3 {
+    display: inline-block;
+/*    font-size: 153%;*/
+    font-size: 122%;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+.prod #imgspecs4 #img4{
+    display: inline-block;
+    border: solid grey 3px;
+}
+
+.prod #imgspecs4 #specificaties4 {
+    display: inline-block;
+/*    font-size: 153%;*/
+    font-size: 122%;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+.prod #imgspecs5 #img5 {
+    display: inline-block;
+    border: solid grey 3px;
+}
+
+.prod #imgspecs5 #specificaties5 {
+    display: inline-block;
+/*    font-size: 153%;*/
+    font-size: 122%;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+.prod #imgspecs6 #img6 {
+    display: inline-block;
+    border: solid grey 3px;
+}
+
+.prod #imgspecs6 #specificaties6 {
+    display: inline-block;
+/*    font-size: 153%;*/
+    font-size: 122%;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+.prod #imgspecs7 #img7 {
+    display: inline-block;
+    border: solid grey 3px;
+}
+
+.prod #imgspecs7 #specificaties7 {
+    display: inline-block;
+/*    font-size: 153%;*/
+    font-size: 122%;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+.prod #imgspecs8 #img8 {
+    display: inline-block;
+    border: solid grey 3px;
+}
+
+.prod #imgspecs8 #specificaties8 {
+    display: inline-block;
+/*    font-size: 153%;*/
+    font-size: 122%;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+.prod #imgspecs9 #img9 {
+    display: inline-block;
+    border: solid grey 3px;
+}
+
+.prod #imgspecs9 #specificaties9 {
+    display: inline-block;
+/*    font-size: 153%;*/
+    font-size: 122%;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+.prod #imgspecs10 #img10 {
+    display: inline-block;
+    border: solid grey 3px;
+}
+
+.prod #imgspecs10 #specificaties10 {
+    display: inline-block;
+/*    font-size: 153%;*/
+    font-size: 122%;
+    padding-top: 0px;
+}
+
+
+
+
+
+.prod #imgspecs11 #img11 {
+    display: inline-block;
+    border: solid grey 3px;
+}
+
+.prod #imgspecs11 #specificaties11 {
+    display: inline-block;
+/*    font-size: 153%;*/
+    font-size: 122%;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.prod #beschrijving {
+    font-size: 109%;
+}
+
+.prod #beschrijving1 {
+    font-size: 109%;
+}
+
+.prod #beschrijving2 {
+    font-size: 109%;
+}
+
+.prod #beschrijving3 {
+    font-size: 109%;
+}
+
+.prod #beschrijving4 {
+    font-size: 109%;
+}
+
+.prod #beschrijving5 {
+    font-size: 109%;
+}
+
+.prod #beschrijving6 {
+    font-size: 109%;
+}
+
+.prod #beschrijving7{
+    font-size: 109%;
+}
+
+.prod #beschrijving8 {
+    font-size: 109%;
+}
+
+.prod #beschrijving9{
+    font-size: 109%;
+}
+
+.prod #beschrijving10{
+    font-size: 109%;
+}
+
+.prod #beschrijving11{
+    font-size: 109%;
+}
+
+
+
+footer{
+	background-color: #007FFF;
+    margin: 0px auto;
+    height: 120px;
+	width: 960px;
+	margin-top: -5px;
+ 	border: solid black 1px;
+}

@@ -1,0 +1,143 @@
+body {
+	font-family: sans-serif;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	border: solid black 1px;
+}
+
+#header {
+	height: 100px;
+}
+
+#header img {
+	height: 180px;
+	margin-left: -10px;
+}
+
+#navigation {
+	height: 39px;
+	background-color: #007FFF;
+	margin-top: -5px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	height: 38px;
+}
+
+ul li {
+	float: left;
+	margin: 0;
+	border-top: solid black 1px;
+	border-bottom: solid black 1px;
+	border-radius: 4px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 2em;
+}
+
+ul li a:hover {
+	background-color: rgba(0, 0, 255, 0.5);
+}
+
+#content {
+	background-color: lightgrey;
+	margin: 0px;
+	height: 620px;
+	font-family: sans-serif;
+	font-size: 1.2em;
+	width: 960px;
+}
+
+#blue {
+	height: 618px;
+	width: 958px;
+	background-color: lightgray;
+	;
+	margin: 0px auto;
+	border: 0.5px black solid;
+}
+
+#blueForm {
+	margin: 20px;
+}
+
+textarea {
+	width: 450px;
+	height: 225px;
+}
+
+#content img {
+	margin-top: 10px;
+	/*    margin-bottom: 10px;*/
+}
+
+#scrollvenster {
+	margin-top: 10px;
+	margin-left: 167.75px;
+}
+
+#onder {}
+
+#onder img {
+	height: 200px;
+	margin-right: 30px;
+}
+
+#table {
+	margin-top: 10px;
+}
+
+#table table tr td {
+	border: 1px solid black;
+	margin: 0;
+	border-spacing: 0;
+}
+
+footer {
+	background-color: #007FFF;
+	margin: 0px auto;
+	height: 120px;
+	width: 960px;
+	margin-top: -5px;
+	border: solid black 1px;
+
+}
+
+textarea {
+	max-width: 350px;
+}
+
+#stukjeText {
+	background-color: white;
+	width: 395px;
+	padding-left: 5px;
+	margin-right: 10px;
+}
+
+#googleMaps {
+	width: 300px;
+	height: 200px;
+	margin-left: 10px;
+}
+
+#twitterLink {
+	margin-left: 10px;
+	margin-bottom: 2px;
+}
+
+#leverings{
+
+border-style: dotted;
+color: #ffffff;
+text-decoration: none;
+}
